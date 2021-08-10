@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  border-bottom: 1px solid ghostwhite;
+  height: 69px;
+  padding: 10px;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+header img {
+  height: 50px;
+  position: absolute;
+  left: 10px;
+}
+header nav {
+  /* border: 2px solid red; */
+  width: 30%;
+  display: inline-flex;
+}
+header nav span {
+  text-decoration: underline;
+  font-weight: bold;
+  /* margin-left: 3%; */
+  font-size: 0.9rem;
+  flex: 1 1 1rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+section.banner {
+  /* flex-flow: 1 1 1200px; */
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.banner article {
+  background-color: black;
+}
+h2 {
+  margin-bottom: 0.8em;
+}
+h4 {
+  margin: 0.4em;
+}
+h5 {
+  margin: 1.5em;
+}
+.adverts {
+  text-align: center;
+  padding: 10px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-card {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+  /* flex-shrink: 1; */
+}
+.img-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  flex: 1 1 200px;
+}
+.addresses {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.ads {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  /* border: 2px solid red; */
+  background-color: black;
+  width: 300px;
+  margin: 15px 40px;
+  text-align: center;
+  opacity: 1;
+}
+.text p {
+  margin: 25px;
+}
+footer {
+  padding: 20px;
+  text-align: start;
+  margin-bottom: 30px;
+}
